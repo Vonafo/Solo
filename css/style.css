@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;    
+    box-sizing: border-box;
+}
+html, body{
+height: 100%;
+}
+body {
+  background: #2B2B2B;
+  width: 100%;
+  height: 90vh;
+  color: #fff;
+  font: 14px/20px Helvetica, Arial, sans-serif;
+  margin:0 ;
+  max-width: 1920px;
+  text-align: center;
+  text-shadow: 0 -2px 1px #000;
+  -webkit-font-smoothing: antialiased;
+  }
+.rslides {
+  margin: 0 auto 40px;
+  }
+.slider {
+    height: 1000px;
+}
+
+.vonafo {
+    font-family: 'Lobster', cursive;
+    left:90px;
+    }
+
+
+nav {
+    background: #1E1E1E;
+}
+nav ul a{
+    font-family: 'Bad Script', cursive;
+    font-size:1.5rem;
+}
+.clearfix {
+    clear: both;
+}
+
+.vape {
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    color: #fff;
+    background: #1E1E1E;
+    z-index: 5;
+    position: relative;  
+}
+.vape h3 {
+    padding: 15px;
+}
+
+.opisanie{
+    margin-top: 30px;
+    font-family: 'Bad Script', cursive;
+    color: #fff;
+    text-align: center;
+}
+.responsive-img{
+    -webkit-transform: rotate(5deg);
+}
+.textfulla {
+    font-size: 2rem;
+    line-height: 1.7em;
+    text-align: center;
+    
+}
+.parallax-container {
+    height: 250px;
+    
+   
+}
+.komplekt , .videoroliki,.contact {
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    color: #fff;
+    background: #1E1E1E;
+    z-index: 5;
+    position: relative;
+  
+}
+ h3 {
+    padding-top: 15px;
+    font-family: 'Bad Script', cursive;
+
+     
+}
+.divcat img{
+    -webkit-transform: rotate(0);
+}
+
+.blackb1, .blackb2, .blackb3{
+    margin:3% 0;
+    border: 7px solid #fff;
+    border-style: double;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.divs {
+    font-family: 'Bad Script', cursive;
+    font-size: 1.3rem;
+    line-height: 1.7em;
+    text-align: center;}
+    }
+
+.vidosu {
+    margin-left:1%;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    
+}
+.vidosu h5 {
+    font-family: 'Bad Script', cursive;
+    }
+
+.obvod {
+    min-height: 500px;
+}
+.joke1 , .joke2 , .joke3 {
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    margin-top: 1%;
+    font-size: 1.5rem;
+    display: none;
+}
+.obvod:hover .joke1 ,.obvod:hover .joke2 ,.obvod:hover .joke3 {
+    display:block;
+    
+}
+.contact{
+    background: linear-gradient(to bottom, rgba(74,73,73,1) 0%,rgba(124,124,124,1) 49%,rgba(43,43,43,1) 100%);
+}
+.stone{
+    min-height: 100px;
+    width: 100%;
+    background: #4A4949;
+    z-index: 15;
+}
+.stone img {
+    margin:2%;
+}
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 10px; 
+  cursor:pointer; 
+  display:none;
+  width: 100px;
+  height: 40px;
+  background: #c0c0c0;
+  font-family: 'Bad Script', cursive;
+  color:black;
+  padding: 14px;
+  font-size:1.5rem;
+  border-radius:15px;
+   z-index:99;
+}
+ 
+#go-top:hover {
+  background: #333;
+  color:#fff;    
+}
+
+
+@media screen and (max-width:992px) {
+    .slider {
+        height:500px;
+    }
+}
+@media screen and (max-width:600px) {
+    .slider {
+        height:315px;
+    }
+}
+
+    
